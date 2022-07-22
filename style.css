@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.width-100 {
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.connecting-link {
+    border: 5px dotted whitesmoke;
+    background-image: linear-gradient(to right, rgb(11, 59, 100), rgb(174, 221, 235));
+    width: 50%;
+    align-items: center;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    margin: 5px auto;
+    color: azure;
+    box-shadow: 5rem gray;
+    text-align: center;
+}
+
+.connecting-link h3 {
+    font-size: 35px;
+}
+
+.icons i {
+    font-size: 40px;
+    margin: 10px 10px;
+    transition: 0.5s;
+}
+
+.icons i:hover {
+    transform: translateY(-25px);
+}
+
+.customer-table th {
+    padding: 15px;
+    background-color: rgb(204, 224, 24);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(204, 224, 24);
+}
+
+table {
+    margin: 10px auto;
+}
+
+.customer-table td {
+    padding: 15px;
+    background-color: #ddd;
+}
+
+pre {
+    text-align: right;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 20px;
+}
